@@ -1,9 +1,2 @@
-# Redirect all requests to their corresponding HTML files
-/about    /about.html   200
-/contact  /contact.html 200
-/events   /events.html  200
-/gallery  /gallery.html 200
-/programs /programs.html 200
-
-# Fallback for SPA-like routing (if needed)
+# Fallback for SPA-like routing
 /*    /index.html   200
