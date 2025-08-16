@@ -1,6 +1,0 @@
-[build]
-  publish = "."
-  command = "echo 'Multi-page site - no build needed'"
-
-# Remove the SPA redirect configuration
-# This allows direct access to individual HTML pages
