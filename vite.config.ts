@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
@@ -8,14 +8,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      input: {
-        main: './index.html',
-        about: './about.html',
-        program: './program.html',
-        event: './event.html',
-        gallery: './gallery.html',
-        contact: './contact.html',
-      }
+      input: './index.html'
     }
   }
-});
+})
